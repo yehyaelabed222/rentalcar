@@ -1,0 +1,31 @@
+/* Enhanced tab button with a gradient background */
+.tab-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    padding: 3px 0 ;
+    background-color: rgb(144, 133, 133) ;
+}
+
+.tab-button {
+    border: none;
+    padding: 10px 10px;
+    margin: 2px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 90px;
+    color: #fff;
+    border-radius: 35px;
+    text-align: center;
+    background: linear-gradient(135deg, #212121, #ff5757 ); /* Gradient from green to red */
+    background-size: 170% 170%;
+    transition: background 0.3s;
+}
+
+.tab-button:hover {
+    background-position: right center; /* Slide the gradient to the right on hover */
+}
+
+.tab-button.active {
+    background-position: right center; /* Apply the same gradient position for the active state */
+}

@@ -1,0 +1,27 @@
+
+.sigin-tab-button{
+    border: none;
+    padding: 10px 10px;
+    margin: 0 5px;
+    border: 5px solid red;
+    border-radius: 50px;
+    border-right-color: coral;
+    border-left-color: coral;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    position: normal;
+    right: -20px;
+    background: linear-gradient(135deg, #4a05f8, #0c00b5 ); /* Gradient from green to red */
+    background-size: 170% 170%;
+    transition: background 0.3s;
+}
+
+.sigin-tab-button:hover {
+    background-position: right center; /* Slide the gradient to the right on hover */
+    border-color:green;
+}
+
+.sigin-tab-button.active {
+    background-position: right center; /* Apply the same gradient position for the active state */
+}

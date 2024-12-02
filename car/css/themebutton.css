@@ -1,0 +1,18 @@
+
+/* Dark Mode Toggle Button Styles */
+#dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #000c72;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+}
+#dark-mode-toggle:hover {
+    background-color: #b30000;
+}
+

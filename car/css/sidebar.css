@@ -1,0 +1,69 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+}
+
+.sidebar.active {
+    width: 250px;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-list li {
+    padding: 10px;
+    transition: background-color 0.3s;
+    border-bottom: 1px solid white;
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+.menu-list li a:hover {
+    color: #fff;
+}
+
+.menu-list li:hover {
+    background-color: #666; /* Change the background color on hover */
+}
+
+#menu-toggle {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+}
+#menu-toggle:hover {
+    background-color: rgb(139, 27, 27); /* Change the background color on hover */
+}
+
+.content {
+    margin-left: 500px;
+    padding: 15px;
+    
+}
+

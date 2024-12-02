@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.container h2 {
+    text-align: center;
+}
+.form-group {
+    margin: 10px 0;
+}
+.form-group label {
+    display: block;
+}
+.form-group input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.btn-create-account {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn-create-account:hover {
+    background-color: #FF5733; /* Red hover effect */
+}
+.Back:hover{
+    color: #FF5733;
+
+}

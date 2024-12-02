@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+    <title>Cars Home Page</title>
+
+    <link rel="stylesheet" href="/css/home.css" >
+    <link rel="stylesheet" href="css/tab-Panels.css">
+    <link rel="stylesheet" href="css/tab-buttons.css">
+    <link rel="stylesheet" href="css/flyout-container.css">
+    <link rel="stylesheet" href="css/theme.css" >
+    <link rel="stylesheet" href="css/themebutton.css" >
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/bottombar.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/gallary.css">
+    <link rel="stylesheet" href="css//headerVideo.css">
+    <link rel="stylesheet" type="text/css" href="/css/login.css">
+    <link rel="stylesheet" type="text/css" href="/css/createAccount.css">
+    
+    
+
+
+</head>
+
+
+
+<body class="home">
+    <header class="fixed-bar">
+        <video autoplay muted loop class="background-video">
+            <source src="/videos/BMW M4 - _Ultimate Racetrack_.mp4" type="video/mp4">
+            
+        </video>
+    </header>
+
+        
+    <!-- theme button -->
+    <button id="dark-mode-toggle" id="light-mode-toggle" class=" theme-button"> 🌛 </button> 
+    
+
+
+
+
+
+    <!-- side-bar -->
+    <button id="menu-toggle">&#9776;</button>
+    <div class="sidebar">
+        <ul class="menu-list">
+            <li><a href="Home.html">⌂ Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">📞 Contact</a></li>
+        </ul>
+    </div>
+
+
+
+    <!-- panels -->
+    <div class="tab-container">
+        <div class="tab-buttons">
+            <button class="tab-button" onclick="openTab(event, 'tab1')" span style="font-size: 24px;">⌂</span></button>
+            <button class="tab-button" onclick="openTab(event, 'tab2')"> BMW</button>
+            <button class="tab-button" onclick="openTab(event, 'tab3')"> Mercedes</button>
+            <button class="tab-button" onclick="openTab(event, 'tab4')"> Land Rover</button>
+            <button class="tab-button" onclick="openTab(event, 'tab5')"> Jaguar</button>
+            <button class="tab-button" onclick="openTab(event, 'tab6')"> Porsche</button>
+            <button class="tab-button" onclick="openTab(event, 'tab7')"> Cadillac</button>
+            <button class="tab-button" onclick="openTab(event, 'tab8')"> GMC </button>
+            <button class="tab-button" onclick="openTab(event, 'tab9')"> Chevrolet</button>
+            <button class="tab-button" onclick="openTab(event, 'tab10')"> Buick </button>
+            <button class="tab-button" onclick="openTab(event, 'tab11')"> Ford </button>
+            <button class="tab-button" onclick="openTab(event, 'tab12')"> lincoln </button>
+            <button class="tab-button" onclick="openTab(event, 'tab13')"> Jeep </button>
+            
+
+            <div class="Account-button">
+            <button class="sigin-tab-button" id="login" onclick="sigin(event, 'tab14')">&#xf2bd; My Account</button>
+            </div>
+
+
+        </div>
+
+
+
+
+        <!--Tab Panels / Gallary -->
+        <div id="tab1" class="tab-panel">
+            <h2>Home Panel </h2>
+            <p>Home.</p>
+            <iframe src="/html/login.html" frameborder="10" width="95%" height="1000"></iframe>
+            </div>
+
+        <div id="tab2" class="tab-panel">
+            <h2>BMW </h2>
+            <p>This is the content for BMW.</p>
+            <iframe src="carslinks/BMW/BMW.html" frameborder="10" width="95%" height="1000"></iframe>
+            
+        </div>
+
+            <div id="tab3" class="tab-panel">
+                <h2>Mercedes </h2>
+                <p>This is the content for Mercedes.</p>
+                <iframe src="carslinks/mercedes benz/mercedes.html"  frameborder="10" width="95%" height="1000"></iframe>
+            </div>
+
+            <div id="tab4" class="tab-panel">
+                <h2>Land Rover</h2>
+                <p>This is the content for Lanad Rover.</p>
+                <iframe src="carslinks/landrover/landrover.html" frameborder="10" width="95%" height="1000"></iframe>
+            </div>
+
+            <div id="tab5" class="tab-panel">
+                <h2>Jaguar</h2>
+                <p>This is the content for Jaguar.</p>
+                <iframe src="carslinks/jaguar/jaguar.html" frameborder="10" width="95%" height="1000"></iframe>
+            </div>
+
+            <div id="tab6" class="tab-panel">
+                <h2>Porsche</h2>
+                <p>This is the content for Porsche.</p>
+                <iframe src="carslinks/porsche/porsche.html" frameborder="10" width="95%" height="1000"></iframe>
+            </div>
+
+            <div id="tab7" class="tab-panel">
+                <h2>Cadillac</h2>
+                <p>This is the content for Cadillac.</p>
+                <iframe src="carslinks/cadillac/cadillac.html" frameborder="10" width="95%" height="1000"></iframe>
+            </div>
+    
+            <div id="tab8" class="tab-panel">
+                <h2>GMC</h2>
+                <p>This is the content for GMC.</p>
+                <iframe src="carslinks/GMC/GMC.html" frameborder="10" width="95%" height="1000"></iframe>
+                </div>
+
+                <div id="tab9" class="tab-panel">
+                    <h2>Chevrolet</h2>
+                    <p>This is the content for Chevrolet.</p>
+                    <iframe src="" frameborder="10" width="95%" height="1000"></iframe>
+                    </div>
+
+                <div id="tab10" class="tab-panel">
+                    <h2>Buick</h2>
+                    <p>This is the content for Buick.</p>
+                    <iframe src="" frameborder="10" width="95%" height="1000"></iframe>
+                    </div>
+
+                <div id="tab11" class="tab-panel">
+                    <h2>Ford</h2>
+                    <p>This is the content for Ford.</p>
+                    <iframe src="" frameborder="10" width="95%" height="1000"></iframe>
+                    </div>
+
+                <div id="tab12" class="tab-panel">
+                    <h2>Lincoln</h2>
+                    <p>This is the content for Lincolin.</p>
+                    <iframe src="" frameborder="10" width="95%" height="1000"></iframe>
+                    </div>
+                
+                    <div id="tab13" class="tab-panel">
+                        <h2>Jeep</h2>
+                        <p>This is the content for Jeep.</p>
+                        <iframe src="" frameborder="10" width="95%" height="1000"></iframe>
+                        </div>
+
+
+        </div>
+    </div>
+
+
+        <!-- Search  Bar-->
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="🔎Search...">
+            <button id="search-button">&#128269;Search</button>
+            </div>
+            <div id="results"><br>
+            <!-- Search results will be displayed here -->
+            </div><br>
+
+            
+
+
+
+
+
+        <!-- button-bar -->
+    <div class="bottom-bar">
+        <a href="Home.html" id="link1">⌂ Home</a>
+        <a href="#" id="link2">Services</a>
+        <a href="#" id="link3">About Us</a>
+    </div>
+    
+    
+
+
+
+    <script src="js/theme.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/bottombar.js"></script>
+    <script src="js/Panels.js"></script>
+    <script src="js/sidebar.js"></script>
+    <script src="js/gallary.js"></script>
+    <script src="/js/login.js"></script>
+
+
+</body>
+</htm>

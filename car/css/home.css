@@ -1,0 +1,14 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+.home {
+    font-family: Arial, sans-serif;
+    background-color: rgb(216, 216, 216);
+    margin: 0;
+    padding: 0;
+}
